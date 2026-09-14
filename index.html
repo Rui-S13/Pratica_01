@@ -5,27 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UPCA - Ensino Superior Público - Barcelos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <img class="logotipo" src="Images/UPCA.svg" alt="Logótipo UPCA">
-        <form action="" method="get">
-            <label for="Busca"></label>
-            <input type="search" id="Busca">
-            <button type="submit">Enviar</button>
-        </form>
-        <nav class="navigation">
-            <ul class="nav-options">
-                <li>Estudar</li>
-                <li>I&D+I</li>
-                <li>Internacional</li>
-                <li>Viver</li>
-                <li>UPCA</li>
-            </ul>
-        </nav>
+    <header class="header">
+        <!-- Exemplo de uso de classe e id-->
+        <h1 class="titulo titulo2" id="tituloId">UPCA - Ensino Superior Público - Barcelos</h1>
+        <div class="header-container">
+            <div>
+                <img class="logotipo" src="Images/UPCA.svg" alt="Logótipo UPCA">
+            </div>
+            <div class="form-nav-container">
+                <form action="" method="get">
+                    <label for="Busca"></label>
+                    <input type="search" id="Busca">
+                    <button type="submit">Enviar</button>
+                </form>
+                <nav class="navigation">
+                    <a>Estudar</a>
+                    <a>I&D+I</a>
+                    <a>Internacional</a>
+                    <a>Viver</a>
+                    <a>UPCA</a>
+                </nav>
+            </div>
+        </div>
     </header>
-    
+    <div>
+        <p>Vá para o Google</p>
+        <a href="https://www.google.com/" target="_blank">Google</a>
+    </div>
+    <div>
+        <p>Vá para o Youtube</p>
+        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+    </div>
+    <div>
+        <p>Vá para o site do UPCA</p>
+        <a href="https://ipca.pt/" target="_blank">UPCA</a>
+    </div>
 </body>
 
 </html>
